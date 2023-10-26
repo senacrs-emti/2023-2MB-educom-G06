@@ -76,7 +76,7 @@
       
     </div>
     <!-- Carrousel -->
-            <div style="margin-top:-80vh">  
+            <div>  
                 <div style="text-align:center">
                     <div class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
                         <div class="card-body">
@@ -149,7 +149,11 @@
             </div>
 </main>
 <footer>
-    
+  <div style="background-color:brown;height:100px;width:auto;margin-top:110vh">
+    <div>
+      <img src="./images/senac.png" style="margin:15px;height:50px;width:auto">
+    </div>
+  </div>  
 </footer>
 </body>
 </html>
