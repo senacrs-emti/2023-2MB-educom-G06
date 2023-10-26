@@ -115,7 +115,11 @@
 
 </main>
 <footer>
-    
+  <div style="background-color:brown;height:100px;width:auto;margin-top:110vh">
+    <div>
+      <img src="./images/senac.png" style="margin:15px;height:50px;width:auto">
+    </div>
+  </div>  
 </footer>
 </body>
 </html>
