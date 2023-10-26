@@ -1,5 +1,12 @@
 /*Navbar*/
-
+*{
+    font-family: 'Cormorant Infant', serif;
+}
+.navbar{
+    background-color: darkblue;
+    height: 80px;
+   
+}
 
 /*Navbar*/
 
