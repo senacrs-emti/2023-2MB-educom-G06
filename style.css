@@ -1,39 +1,83 @@
-/* Carousel styling */
+/*Navbar*/
+
+
+/*Navbar*/
+
+/* Carorusel*/
 #introCarousel,
 .carousel-inner,
 .carousel-item,
 .carousel-item.active {
   height: 100vh;
 }
-
+ 
 .carousel-item:nth-child(1) {
   background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+ 
 }
-
+ 
 .carousel-item:nth-child(2) {
   background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-
+ 
 .carousel-item:nth-child(3) {
   background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-
-/* Height for devices larger than 576px */
+ 
 @media (min-width: 992px) {
   #introCarousel {
     margin-top: -58.59px;
   }
 }
-
+ 
 .navbar .nav-link {
   color: #fff !important;
 }
+
+/* Footer */
+  body {
+    background: #0061c31a;
+  }
+  
+  .text-small {
+    font-size: 0.9rem;
+    color: whitesmoke;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+   
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  
+  .form-control {
+    background: #212529;
+    border-color: #545454;
+  }
+  
+  .form-control:focus {
+    background: #212529;
+  }
+  
+  footer {
+    background: #002c57;
+    color:whitesmoke ;
+  }
+  
+    body, html {
+      height: 100%;
+    }
