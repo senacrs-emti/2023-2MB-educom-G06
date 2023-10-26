@@ -80,16 +80,16 @@
                 <div style="text-align:center">
                     <div class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
                         <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
+                            <h5 class="card-title">Conteúdo 1</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="./conteudos/1teste.php" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                     <div class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
                         <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
+                            <h5 class="card-title">Conteúdo 2</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="./conteudos/2teste.php" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                     <div class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
@@ -149,11 +149,7 @@
             </div>
 </main>
 <footer>
-  <div style="background-color:brown;height:100px;width:auto;margin-top:110vh">
-    <div>
-      <img src="./images/senac.png" style="margin:15px;height:50px;width:auto">
-    </div>
-  </div>  
+  
 </footer>
 </body>
 </html>
