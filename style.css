@@ -7,6 +7,10 @@
   height: 100px;
  
 }
+nav-link.a{
+
+  margin-top: 50px;
+}
 .navbar .nav-item{
 margin-right: 22px;
 margin: bottom 12px;
