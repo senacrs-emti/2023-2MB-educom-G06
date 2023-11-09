@@ -1,11 +1,27 @@
 /*Navbar*/
 *{
-    font-family: 'Cormorant Infant', serif;
+  font-family: 'Cormorant Infant', serif;
 }
 .navbar{
-    background-color: darkblue;
-    height: 80px;
-   
+  background-color: #002c57;
+  height: 100px;
+ 
+}
+.navbar .nav-item{
+margin-right: 22px;
+margin: bottom 12px;
+margin-top: 2px;
+}
+.navbar #search{
+  margin-top: -13px;
+
+}
+.navbar #title{
+  margin-right: 10px;
+  border: whitesmoke;
+}
+.navbar a{
+  padding: 14px 16px;
 }
 
 /*Navbar*/
@@ -15,76 +31,86 @@
 .carousel-inner,
 .carousel-item,
 .carousel-item.active {
-  height: 100vh;
+height: 100vh;
+
 }
- 
+
 .carousel-item:nth-child(1) {
-  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
- 
+background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+
 }
- 
+
 .carousel-item:nth-child(2) {
-  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
 }
- 
+
 .carousel-item:nth-child(3) {
-  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
 }
- 
+.carousel-caption{
+bottom: 10.25rem!important;
+text-size-adjust: 400px !important;
+}
 @media (min-width: 992px) {
-  #introCarousel {
-    margin-top: -58.59px;
-  }
+#introCarousel {
+  margin-top: -58.59px;
 }
- 
+}
+
 .navbar .nav-link {
-  color: #fff !important;
+color: #fff !important;
 }
 
 /* Footer */
-  body {
-    background: #0061c31a;
+body {
+  background: #0061c31a;
+}
+
+.text-small {
+  font-size: 0.9rem;
+  color: whitesmoke;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+ 
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #002c57;
+  color:whitesmoke ;
+}
+footer #texto2{
+  margin-left: 350px;
+}
+body, html {
+    height: 100%;
   }
-  
-  .text-small {
-    font-size: 0.9rem;
-    color: whitesmoke;
+
+  #lorem{
+    margin-left: 500px;
   }
-  
-  a {
-    color: inherit;
-    text-decoration: none;
-    transition: all 0.3s;
-   
-  }
-  
-  a:hover, a:focus {
-    text-decoration: none;
-  }
-  
-  .form-control {
-    background: #212529;
-    border-color: #545454;
-  }
-  
-  .form-control:focus {
-    background: #212529;
-  }
-  
-  footer {
-    background: #002c57;
-    color:whitesmoke ;
-  }
-  
-    body, html {
-      height: 100%;
-    }
