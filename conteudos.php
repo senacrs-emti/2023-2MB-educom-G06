@@ -1,7 +1,7 @@
 <?php include_once 'navbar.php';?>
 
 <main>
-           <div>  
+           <div style="text-align:center" >  
                     <a href="./conteudos/2teste.php" style="text-decoration:none;color:inherit">
                       <div  class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
                           <div class="card-body">
@@ -65,7 +65,7 @@
                     <a href="./conteudos/2teste.php" style="text-decoration:none;color:inherit">
                       <div  class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
                           <div class="card-body">
-                              <h5 class="card-title">Gêneros Textuais</h5>
+                              <h5 class="card-title">Período composto</h5>
                               <a href="#" class="btn btn-primary">Acessar</a>
                           </div>
                       </div>
