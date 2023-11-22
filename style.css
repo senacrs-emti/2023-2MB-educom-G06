@@ -7,9 +7,13 @@
   height: 100px;
  
 }
-nav-link.a{
+h1.nav-link{
+  margin-top: -13;
+}
+a.nav-link{
+ font-size:30px;
+  margin-right: 100px;
 
-  margin-top: 50px;
 }
 .navbar .nav-item{
 margin-right: 22px;
@@ -72,6 +76,10 @@ text-size-adjust: 400px !important;
 
 .navbar .nav-link {
 color: #fff !important;
+
+}
+.navbar .nav-link #conteudos{
+margin-top: 0px;
 }
 
 /* Footer */
@@ -108,8 +116,9 @@ footer {
   background: #002c57;
   color:whitesmoke ;
 }
-footer #texto2{
+footer #lorem{
   margin-left: 350px;
+  margin-top: 20px;
 }
 body, html {
     height: 100%;

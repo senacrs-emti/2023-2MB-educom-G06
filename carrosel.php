@@ -8,8 +8,8 @@
         <div class="carousel-inner">
           <div class="carousel-item active " data-interval = 5000>
               <div class="carousel-caption d-none d-md-block rounded-5 shadow-4-strong" id="">
-              <h1>Bem-vindo ao nosso site</h1>
-              <h2>Some representative placeholder content for the first slide.</h2>
+              <h1>Bem-vindo ao SenacLib</h1>
+              <h2> Biblioteca acadêmica virtual</h2>
             </div>
           </div>
  

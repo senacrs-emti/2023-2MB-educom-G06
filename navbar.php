@@ -31,8 +31,8 @@
             <i class="fas fa-bars"></i>
           </button>
               <!--Link para conteúdos-->
-              <li class="nav-item">
-                <a class="nav-link" href="conteudos.php" rel="nofollow"
+              <li  class="nav-item"  >
+                <a class="nav-link" id="conteudos"  href="conteudos.php" rel="nofollow"
                   target="_blank">Conteúdos</a>
               </li>
               <!--Segundo Link-->
@@ -40,6 +40,9 @@
                 <a class="nav-link" href="" target="_blank">Sobre</a>
               </li>
             </ul>
+            <!-- Títulos -->
+
+            <!-- Search button class -->
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
