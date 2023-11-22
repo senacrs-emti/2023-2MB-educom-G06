@@ -5,27 +5,24 @@
                     <a href="./conteudos/2teste.php" style="text-decoration:none;color:inherit">
                       <div  class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
                           <div class="card-body">
-                              <h5 class="card-title">Special title treatment</h5>
-                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <h5 class="card-title">Substantivos</h5>
+                              <a href="#" class="btn btn-primary">Acessar</a>
                           </div>
                       </div>
                     </a>
                     <a href="./conteudos/2teste.php" style="text-decoration:none;color:inherit">
                       <div  class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
                           <div class="card-body">
-                              <h5 class="card-title">Special title treatment</h5>
-                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <h5 class="card-title">Uso dos porquês</h5>
+                              <a href="#" class="btn btn-primary">Acessar</a>
                           </div>
                       </div>
                     </a>
                     <a href="./conteudos/2teste.php" style="text-decoration:none;color:inherit">
                       <div  class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
                           <div class="card-body">
-                              <h5 class="card-title">Special title treatment</h5>
-                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <h5 class="card-title">Paralelismo Sintático</h5>
+                              <a href="#" class="btn btn-primary">Acessar</a>
                           </div>
                       </div>
                     </a>
@@ -34,27 +31,24 @@
                 <a href="./conteudos/2teste.php" style="text-decoration:none;color:inherit">
                       <div  class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
                           <div class="card-body">
-                              <h5 class="card-title">Special title treatment</h5>
-                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <h5 class="card-title">Variação Linguística</h5>
+                              <a href="#" class="btn btn-primary">Acessar</a>
+                          </div>
+                     </div>
+                    </a>
+                    <a href="./conteudos/2teste.php" style="text-decoration:none;color:inherit">
+                      <div  class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
+                          <div class="card-body">
+                              <h5 class="card-title">Coesão e Coerência</h5>
+                              <a href="#" class="btn btn-primary">Acessar</a>
                           </div>
                       </div>
                     </a>
                     <a href="./conteudos/2teste.php" style="text-decoration:none;color:inherit">
                       <div  class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
                           <div class="card-body">
-                              <h5 class="card-title">Special title treatment</h5>
-                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                      </div>
-                    </a>
-                    <a href="./conteudos/2teste.php" style="text-decoration:none;color:inherit">
-                      <div  class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
-                          <div class="card-body">
-                              <h5 class="card-title">Special title treatment</h5>
-                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <h5 class="card-title">Polissemia</h5>
+                              <a href="#" class="btn btn-primary">Acessar</a>
                           </div>
                       </div>
                     </a>
@@ -63,30 +57,27 @@
                 <a href="./conteudos/2teste.php" style="text-decoration:none;color:inherit">
                       <div  class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
                           <div class="card-body">
-                              <h5 class="card-title">Special title treatment</h5>
-                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <h5 class="card-title">Ambiguidade</h5>
+                              <a href="#" class="btn btn-primary">Acessar</a>
                           </div>
                       </div>
                     </a>
                     <a href="./conteudos/2teste.php" style="text-decoration:none;color:inherit">
                       <div  class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
                           <div class="card-body">
-                              <h5 class="card-title">Special title treatment</h5>
-                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <h5 class="card-title">Gêneros Textuais</h5>
+                              <a href="#" class="btn btn-primary">Acessar</a>
                           </div>
                       </div>
                     </a>
                     <a href="./conteudos/2teste.php" style="text-decoration:none;color:inherit">
                       <div  class="card text-center mb-3" style="width: 18rem;margin:10px;display:inline-block">
                           <div class="card-body">
-                              <h5 class="card-title">Special title treatment</h5>
-                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <h5 class="card-title">Classes Gramáticais</h5>
+                              <a href="#" class="btn btn-primary">Acessar</a>
                           </div>
                       </div>
-                    </a>
+                    </a>  
                 </div>
             </div>
 </main>
@@ -109,6 +100,5 @@
 </nav>
 
 <?php include_once 'footer.php';?>
-
 </body>
 </html>
