@@ -22,8 +22,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
         <div class="container-fluid">
           <!-- Navbar brand -->
-          <a class="navbar-brand nav-link" target="_blank" href="home.php">
-            <h1>SenacLib</h1>
+          <a class="navbar-brand nav-link" target="_self" href="home.php">
+            <h1>Home</h1>
           </a>
           
           <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbar"
@@ -32,12 +32,12 @@
           </button>
               <!--Link para conteúdos-->
               <li  class="nav-item"  >
-                <a class="nav-link" id="conteudos"  href="conteudos.php" rel="nofollow"
+                <a class="nav-link" id="conteudosnav" target="_self" href="conteudos.php" rel="nofollow"
                   target="_blank">Conteúdos</a>
               </li>
               <!--Segundo Link-->
               <li class="nav-item">
-                <a class="nav-link" href="" target="_blank">Sobre</a>
+                <a class="nav-link" id="sobrenav"  href="" target="_self">Sobre</a>
               </li>
             </ul>
             <!-- Títulos -->

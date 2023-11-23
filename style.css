@@ -12,11 +12,23 @@ h1.nav-link{
 }
 a.nav-link{
  font-size:30px;
-  margin-right: 100px;
+  margin-right: -100px;
 
 }
+.navbar .nav-link#conteudosnav{
+  font-size: 35px;
+  margin-top: -30px ;
+  padding: 10px;
+  margin-left: -100px;
+}
+.navbar .nav-link#sobrenav{
+  font-size: 35px;
+  margin-top: -30px;
+  padding: 10px;
+  margin-left: -300px;
+}
 .navbar .nav-item{
-margin-right: 22px;
+margin-right: 120px;
 margin: bottom 12px;
 margin-top: 2px;
 }
@@ -26,12 +38,11 @@ margin-top: 2px;
 }
 .navbar #title{
   margin-right: 10px;
-  border: whitesmoke;
+
 }
 .navbar a{
   padding: 14px 16px;
 }
-
 /*Navbar*/
 
 /* Carorusel*/
@@ -42,7 +53,9 @@ margin-top: 2px;
 height: 100vh;
 
 }
-
+.carousel-item.active#imagemtxt1{
+ font-size: 100px; 
+}
 .carousel-item:nth-child(1) {
 background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
 background-repeat: no-repeat;
