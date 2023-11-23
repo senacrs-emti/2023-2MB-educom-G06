@@ -14,12 +14,13 @@ include_once 'navbar.php';?>
 
     foreach ($dados as $key => $value) {
     ?>
-
-
+    
+        <p id="explicacao"><?php echo $value ['Explicacao']?></p>
+        <p id="exemplos"><?php echo $value['Exemplos']?></p>
         <?php
-            echo '<pre>';
-            print_r($value);
-            echo '</pre>';  
+          // echo '<pre>';
+          // print_r($value);
+           //echo '</pre>';  
 
     }
     ?>
