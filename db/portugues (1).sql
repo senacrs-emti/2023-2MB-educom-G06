@@ -20,7 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `portugues`
 --
-
 CREATE DATABASE portugues;
 USE portugues;
 -- --------------------------------------------------------
@@ -54,6 +53,8 @@ INSERT INTO `conteudo` (`ConteudoID`, `Titulo`) VALUES
 --
 -- Estrutura da tabela `questoes`
 --
+
+
 
 CREATE TABLE `questoes` (
   `QuestaoID` int(11) NOT NULL,
