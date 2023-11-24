@@ -5,6 +5,7 @@ include_once 'navbar.php';?>
 <main>
 
             <?php
+            
             $sql = "SELECT * FROM conteudo";
             $result = mysqli_query($conexao, $sql);
 

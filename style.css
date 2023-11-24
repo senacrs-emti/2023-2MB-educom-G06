@@ -98,12 +98,9 @@ margin-top: 0px;
 /* Footer */
 body {
   background: #0061c31a;
-
-
-  width: 100% ;
-  left: 0;
-  bottom: 0;
-
+  width: 100%;
+position: sticky;
+height: 100px;
 }
 
 .text-small {
@@ -149,15 +146,15 @@ body, html {
 
 /* PHP e SQL (Conteúdos) */
 #explicacao{
-padding: 0;
-margin: 0;
+padding: 40px;
+margin: 10px;
 margin-top: 30px;
 margin-left: 30px;
 font-size: 30px;
 }
 #exemplos{
-  padding: 0;
-  margin: 0;
+  padding: 40px;
+  margin: 10px;
   margin-top: 30px;
   margin-left: 30px;
   font-size: 25px;
