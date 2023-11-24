@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 -- Banco de dados: `portugues`
 --
 
+CREATE DATABASE portugues;
+USE portugues;
 -- --------------------------------------------------------
 
 --
