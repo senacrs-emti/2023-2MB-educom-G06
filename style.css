@@ -131,6 +131,7 @@ a:hover, a:focus {
 footer {
   background: #002c57;
   color:whitesmoke ;
+  float: left;
 }
 footer #lorem{
   margin-left: 350px;
