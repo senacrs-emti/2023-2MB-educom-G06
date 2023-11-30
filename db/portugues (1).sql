@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 22-Nov-2023 às 16:16
+-- Tempo de geração: 30-Nov-2023 às 14:45
 -- Versão do servidor: 10.4.17-MariaDB
 -- versão do PHP: 7.3.27
 
@@ -45,7 +45,7 @@ INSERT INTO `conteudo` (`ConteudoID`, `Titulo`) VALUES
 (5, 'Coesão e Coerência'),
 (6, 'Polissemia'),
 (7, 'Ambiguidade'),
-(8, 'Gêneros Textuais'),
+(8, 'Período Composto'),
 (9, 'Classes Gramáticais');
 
 -- --------------------------------------------------------
@@ -53,8 +53,6 @@ INSERT INTO `conteudo` (`ConteudoID`, `Titulo`) VALUES
 --
 -- Estrutura da tabela `questoes`
 --
-
-
 
 CREATE TABLE `questoes` (
   `QuestaoID` int(11) NOT NULL,
@@ -68,24 +66,26 @@ CREATE TABLE `questoes` (
 --
 
 INSERT INTO `questoes` (`QuestaoID`, `Explicacao`, `Exemplos`, `Conteudo_ConteudoID`) VALUES
-(1, 'O Substantivo é o que dá nome a coisas,seres, espaços, sentimentos. Há dois tipos de Substantivos: Comum e Próprio. Substantivos comuns são associados a qualquer coisa que NÃO seja uma entidade, como objetos, sentimentos, estados,etc. Em contrapartida, os Substantivos Próprios são acossiados com pessoas, entidades, etc.', 'Substantivos Comum: Porque essa PORTA  está aqui?    Substantivo Próprios: Meu nome é MARCOS.', 1),
-(3, 'Uma das principais dúvidas na hora de escrever é o uso dos porquês. As variações por que, porque, porquê e por quê podem gerar uma baita dor de cabeça quando se está estudando. Para te ajudar, vamos explicar quando usar cada uma das expressões. Confira!\r\n\r\n \r\n\r\nPor que\r\nO “por que” tem aplicações diferentes. Pode ser usado em frases interrogativas diretas e para substituir a expressão “pelo qual”.\r\n\r\nQuando for composto da preposição por + pronome interrogativo que, assume o significado de “por qual razão” ou “por qual motivo”.\r\n\r\nJá quando for a junção da preposição por + pronome relativo que, significa “pela qual”.', 'Por que você não quis sair? (Por qual razão)\r\n\r\nAs cidades por que passamos eram lindas. (Pelas quais)', 2),
-(4, 'Por quê  \r\nQuando a expressão mantém o significado de “por qual motivo” e está posicionado antes de um ponto de exclamação ou interrogação, o “por quê” deve ser acentuado.', 'Ele não quis vir. Por quê?\r\n\r\n Ele não quis vir. Por quê?\r\n\r\nEle não quis vir. Por quê?\r\n\r\n Ele não quis vir. Por quê?\r\nEle não quis vir. Por quê?\r\n\r\nEle não quis vir. Por quê?\r\n\r\nEle não quis vir. Por quê?\r\n\r\nEle não quis vir. Por quê?', 2),
-(5, 'Porque\r\n Neste caso, o “porque” é uma conjunção causal ou explicativa, com o significado de “pois”, “uma vez que”.', 'Não quis ir porque a Paula estava lá.', 2),
-(6, 'O “porquê” é um substantivo e indica “motivo”, “razão”. Vem sempre acompanhado por um artigo, pronome, adjetivo ou numeral.', 'Me dê um porquê que justifique a sua ausência.\r\n\r\nMe dê um porquê que justifique a sua ausência.\r\n\r\nMe dê um porquê que justifique a sua ausência.\r\n\r\n \r\n\r\nMe dê um porquê que justifique a sua ausência.\r\n\r\n \r\n\r\nMe dê um porquê que justifique a sua ausência.\r\n\r\n \r\n\r\nMe dê um porquê que justifique a sua ausência.\r\n\r\n \r\n\r\nMe dê um porquê que justifique a sua ausência.\r\n\r\n \r\n\r\nMe dê um porquê que justifique a sua ausência.\r\n\r\n \r\n\r\nMe dê um porquê que justifique a sua ausência.\r\n\r\n \r\n\r\nMe dê um porquê que justifique a sua ausência.', 2),
-(7, 'Paralelismo sintático é uma sequência de estruturas sintáticas, como termos e orações, que são semelhantes ou possuem igual valor sintático. O uso de estruturas com essa simetria sintática confere clareza, objetividade e precisão ao discurso.', 'Sem:\r\nEu pedi para ele vir cedo e que trouxesse guardanapos.\r\nCom:\r\nEu pedi que ele viesse cedo e que trouxesse guardanapos.\r\n\r\nSem:\r\nEu pedi para ele vir cedo e que trouxesse guardanapos.\r\nCom:\r\nEu pedi que ele viesse cedo e que trouxesse guardanapos.\r\n\r\nSem:\r\nEu pedi para ele vir cedo e que trouxesse guardanapos.\r\nCom:\r\nEu pedi que ele viesse cedo e que trouxesse guardanapos.\r\n\r\nSem:\r\nEu pedi para ele vir cedo e que trouxesse guardanapos.\r\nCom:\r\nEu pedi que ele viesse cedo e que trouxesse guardanapos.', 3),
-(8, ' A Variação linguística é um fenômeno que acontece com a língua e pode ser compreendida por intermédio das variações históricas e regionais. Em um mesmo país, com um único idioma oficial, a língua pode sofrer diversas alterações feitas por seus falantes.', ' Biscoito e bolacha', 4),
-(9, 'Coerência: \r\nPara atingir o objetivo de passar uma mensagem clara e compreensível, um bom texto deve conter alguns elementos que facilitem o entendimento do leitor, seguindo uma linha de pensamento que possa ser acompanhada e entendida.', 'Fazia tão calor naquele dia, que as roupas pareciam aderir à pele. Cada passo na calçada era um desafio ao bem-estar devido à temperatura do ladrilho. Mesmo assim, saiu mais cedo e foi fazer as compras de aniversário para a surpresa da noite. Nem mesmo o calor seria suficiente para impedir a festa.', 5),
-(10, 'Coesão: Coesão ou coesão textual é a conexão e harmonia entre os elementos textuais e é feita através de preposições, de conjunções, de alguns advérbios e de locuções adverbiais. ', ' Aquela escola não oferece as condições mínimas de trabalho. A Instituição está literalmente caindo aos pedaços.', 5),
-(11, 'Polissemia é como nomeamos o fenômeno linguístico em que uma mesma palavra tem dois ou mais significados. Já a homonímia está relacionada à existência de termos (polissêmicos ou não) que possuem mesma pronúncia e/ou grafia.', 'Na festa, havia apenas damas e cavalheiros.\r\n[damas = mulheres nobres]\r\n\r\nAprender a jogar damas é fácil.\r\n[damas = jogo de tabuleiro]', 6),
-(12, 'Ambiguidade é o tipo de significado em que uma expressão, declaração ou resolução não está explicitamente definida, tornando plausíveis várias interpretações.', 'Ninguém conseguia se aproximar do porco do tio, tão mal ele cheirava. Nessa frase, a palavra porco pode ter o sentido de animal (o porco que pertence ao tio) ou pode ter o sentido de pessoa suja (comparação do tio a um porco).', 7),
-(13, 'O Período Composto é formado por mais do que uma oração. Isso quer dizer que ele precisa ter dois ou mais verbos, porque o número de orações é igual ao número de verbos presentes num enunciado.', 'Conversamos quando eu voltar. É sua obrigação explicar o que aconteceu.', 8),
-(14, 'São elas: artigo, adjetivo, pronome, numeral, substantivo e verbo. Já as classes advérbio, conjunção, interjeição e preposição são classes invariáveis, pois elas não aceitam nenhuma alteração. Permanecem iguais, independente se estão sendo usadas no plural, singular, masculino ou feminino.', 'Substantivos: Gato. Casa. Amor.', 9),
+(1, 'O Substantivo é o que dá nome a coisas,seres, espaços, sentimentos. Há dois tipos de Substantivos: Comum e Próprio. Substantivos comuns são associados a qualquer coisa que NÃO seja uma entidade, como objetos, sentimentos, estados,etc. Em contrapartida, os Substantivos Próprios são acossiados com pessoas, entidades, etc.', 'Substantivos Comum: \"Porque essa PORTA  está aqui?\"  \r\n\r\n\r\n Substantivo Próprios: \"Meu nome é MARCOS.\"', 1),
+(3, 'Uma das principais dúvidas na hora de escrever é o uso dos porquês. As variações por que, porque, porquê e por quê podem gerar uma baita dor de cabeça quando se está estudando. Para te ajudar, vamos explicar quando usar cada uma das expressões. Confira!\r\n\r\n \r\n\r\nPor que\r\nO “por que” tem aplicações diferentes. Pode ser usado em frases interrogativas diretas e para substituir a expressão “pelo qual”.\r\n\r\nQuando for composto da preposição por + pronome interrogativo que, assume o significado de “por qual razão” ou “por qual motivo”.\r\n\r\nJá quando for a junção da preposição por + pronome relativo que, significa “pela qual”.', '\"Por que você não quis sair?\" (Por qual razão)\r\n\r\n\"As cidades por que passamos eram lindas.\" (Pelas quais)', 2),
+(4, ' \r\n Por quê:  \r\n\r\n Quando a expressão mantém o significado de “por qual motivo” e está posicionado antes de um ponto de exclamação ou interrogação, o “por quê” deve ser acentuado.', '\"Ele não quis vir. Por quê?\"', 2),
+(5, ' \r\n Porque:\r\n \r\n  Neste caso, o “porque” é uma conjunção causal ou explicativa, com o significado \r\n de “pois”, “uma vez que”.', ' \"Não quis ir porque a Paula estava lá.\"', 2),
+(6, '\r\n  porquê: \r\n \r\n é um substantivo e indica “motivo”, “razão”. Vem sempre acompanhado por um artigo, \r\n pronome, adjetivo ou numeral.', '\"Me dê um porquê que justifique a sua ausência.\"\r\n', 2),
+(7, 'Paralelismo sintático é uma sequência de estruturas sintáticas, como termos e orações, que são semelhantes ou possuem igual valor sintático. O uso de estruturas com essa simetria sintática confere clareza, objetividade e precisão ao discurso.', 'Sem:\r\nEu pedi para ele vir cedo e que trouxesse guardanapos.\r\n\r\n', 3),
+(8, ' A Variação linguística é um fenômeno que acontece com a língua e pode ser compreendida por intermédio das variações históricas e regionais. Em um mesmo país, com um único idioma oficial, a língua pode sofrer diversas alterações feitas por seus falantes.', ' \"Biscoito e bolacha\"', 4),
+(9, 'Coerência: \r\nPara atingir o objetivo de passar uma mensagem clara e compreensível, um bom texto deve conter alguns elementos que facilitem o entendimento do leitor, seguindo uma linha de pensamento que possa ser acompanhada e entendida.', '\"Fazia tão calor naquele dia, que as roupas pareciam aderir à pele. Cada passo na calçada era um desafio ao bem-estar devido à temperatura do ladrilho. Mesmo assim, saiu mais cedo e foi fazer as compras de aniversário para a surpresa da noite. Nem mesmo o calor seria suficiente para impedir a festa.\"', 5),
+(10, ' Coesão:\r\n É a conexão e harmonia entre os elementos textuais e é feita através de preposições, de conjunções, de alguns advérbios e de locuções adverbiais. ', ' \"Aquela escola não oferece as condições mínimas de trabalho. A Instituição está literalmente caindo aos pedaços.\"', 5),
+(11, 'Polissemia é como nomeamos o fenômeno linguístico em que uma mesma palavra tem dois ou mais significados. Já a homonímia está relacionada à existência de termos (polissêmicos ou não) que possuem mesma pronúncia e/ou grafia.', '\"Na festa, havia apenas damas e cavalheiros.\"\r\n[damas = mulheres nobres]\r\n\r\n\r\n\r\n', 6),
+(12, 'Ambiguidade é o tipo de significado em que uma expressão, declaração ou resolução não está explicitamente definida, tornando plausíveis várias interpretações.', '\"Ninguém conseguia se aproximar do porco do tio, tão mal ele cheirava.\"\r\n\r\n Nessa frase, a palavra porco pode ter o sentido de animal (o porco que pertence ao tio) ou pode ter o sentido de pessoa suja (comparação do tio a um porco).', 7),
+(13, 'O Período Composto é formado por mais do que uma oração. Isso quer dizer que ele precisa ter dois ou mais verbos, porque o número de orações é igual ao número de verbos presentes num enunciado.', '\"Conversamos quando eu voltar. É sua obrigação explicar o que aconteceu.\"', 8),
+(14, ' \r\n   Classes Gramaticais\r\n \r\nSão elas: artigo, adjetivo, pronome, numeral, substantivo e verbo. Já as classes advérbio, conjunção, interjeição e preposição são classes invariáveis, pois elas não aceitam nenhuma alteração. Permanecem iguais, independente se estão sendo usadas no plural, singular, masculino ou feminino.', 'Substantivos: Gato. Casa. Amor.', 9),
 (15, NULL, 'Verbos: Correr. Comer. Estudar.\r\nVerbos: Correr. Comer. Estudar.', 9),
 (16, NULL, 'Adjetivos: Feliz. Grande. Bonito.', 9),
 (17, NULL, 'Advérbios: Rapidamente. Bem. Agora.', 9),
 (18, NULL, 'Preposições: Em. Para. Com.', 9),
-(19, NULL, 'Conjunções: E. Ou. Mas.', 9);
+(19, NULL, 'Conjunções: E. Ou. Mas.', 9),
+(22, '', '\r\n\r\n\"Aprender a jogar damas é fácil.\"\r\n[damas = jogo de tabuleiro]\r\n\r\n\r\n', 6),
+(23, '', 'Com:\r\nEu pedi que ele viesse cedo e que trouxesse guardanapos.\r\n\r\n', 3);
 
 --
 -- Índices para tabelas despejadas
@@ -118,7 +118,7 @@ ALTER TABLE `conteudo`
 -- AUTO_INCREMENT de tabela `questoes`
 --
 ALTER TABLE `questoes`
-  MODIFY `QuestaoID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `QuestaoID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- Restrições para despejos de tabelas
